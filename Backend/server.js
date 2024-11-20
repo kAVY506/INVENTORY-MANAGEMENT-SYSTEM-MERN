@@ -9,7 +9,7 @@ app.use(cors());
 
 const port = 4022;
 
-const mongoUrl ="mongodb+srv://kavyareddyamanaganti:kavyareddyamanaganti@cluster0.gi30zmx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const mongoUrl = "mongodb+srv://kavyareddyamanaganti:kavyareddyamanaganti@cluster0.fgrgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 mongoose.connect(mongoUrl, {});
 mongoose.connection.on('connected',() => {
